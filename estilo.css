@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap');
+
+*{
+    margin: auto;
+}
+
+body{
+    background-color: #BFBFBF;
+}
+
+nav{
+    background-color: #127369;
+    
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+
+  li{
+    background: #10403B;
+    margin: 15px;
+    padding: 15px;
+  
+    text-align: center;
+    width: 120px;
+
+  }
+  
+  li a {
+   
+    text-decoration: none;
+    color: #BFBFBF;
+  }
+li a:hover{
+    color: #BFBFBF;
+}
+  
+
+ h1{
+     text-align: center;
+ }
+ .contentedorpagina{
+  justify-content: center;
+
+  
+ }
+ .contenedortextoimagen{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+ }
+ .cajatexto{
+    background-color: #8AA6A3 ;
+    width: 15%;
+    height: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 1cm;
+ }
+ .textobold{
+    font-weight:bold
+    font-size: 14px;
+    line-height: 17px;
+ }
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0; 
+  width: 100%;
+  background-color: #10403B;
+  color: #BFBFBF;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+footer img{
+  height: 40px;
+}
+
+.foto{
+    width: 272px;
+    height: 272px;
+    left: 52px;
+    top: 261px;
+    border-radius: 130px;
+    align-items: center;
+}
+
+.subtitulos{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+  .contenedortextoimagen {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120%;
+  }
+
+  .cajatexto {
+    height: auto;
+    border-radius: 1cm;
+  }
+
+}
+
+@media (max-height: 600px) {
+  footer {
+    padding: 5px;
+  }
+}
+  .contenedortextoimagen {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120%;
+  }
+
+@media (max-width: 600px) {
+  footer {
+    font-size: 13px;
+  }
+}
